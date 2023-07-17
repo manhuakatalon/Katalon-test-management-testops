@@ -18,3 +18,20 @@ dependencies {
   // JSON Schema Validation
   // compile 'io.rest-assured:json-schema-validator:3.2.0'
 }
+
+sourceSets {
+	main {
+		groovy {
+			srcDirs = ['Keywords', 'Include/scripts/groovy']
+		}
+	}
+}
+
+jar {
+	exclude 'Temp*.class'
+}
+
+katalon {
+	dependencyPrefix = 'com.katalon'
+	minimize = false
+}

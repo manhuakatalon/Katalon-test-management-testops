@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>Failure Test Suite - Listener</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b9697450-f2ed-442d-ba61-0d398afbee99</testSuiteGuid>
+   <testSuiteGuid>7e650811-2c78-4ba4-8f90-cc55f2b2597a</testSuiteGuid>
    <testCaseLink>
-      <guid>a2d2bd8a-2c6d-4d20-a96f-7d6f64cc9879</guid>
+      <guid>e67b24b6-af34-40b2-b169-ce444dbf2c48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC00_OpenBrowser</testCaseId>
+      <testCaseId>Test Cases/default/TC00_OpenBrowser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e071475a-3da9-4a02-9b78-e430bec6fec8</guid>
+      <guid>f37140a1-025d-4d6b-883e-f4a62da975a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01_ClickButton</testCaseId>
+      <testCaseId>Test Cases/default/TC01_ClickButton</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63019e4b-b91e-4c69-9162-1e61aa58d270</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/default/TC02_ReturnTestcaseFailure - Listener</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

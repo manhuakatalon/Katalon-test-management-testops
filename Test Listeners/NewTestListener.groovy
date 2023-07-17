@@ -19,6 +19,7 @@ import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.annotation.AfterTestCase
 import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.annotation.TearDownIfFailed
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
@@ -30,5 +31,10 @@ class NewTestListener {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.closeBrowser()
+	}
+	
+	@TearDownIfFailed(skipped = false)
+	def sampleTearDownIfFailed() {
+		WebUI.takeScreenshot()
 	}
 }
