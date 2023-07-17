@@ -19,5 +19,6 @@ jobs:
         uses: heussd/mirror-to-bitbucket-github-action@v2
         with:
           username: huaminhman15112000@gmail.com
+          spacename: huaminhman15112000@gmail.com
           repository: Katalon-test-management-testops
           password: ${{ secrets.BITBUCKET_PASSWORD }}
