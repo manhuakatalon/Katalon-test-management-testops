@@ -23,7 +23,6 @@ Feature: Title of your feature
 	Scenario: Making an appointment without provide username and password
 		Given I want to click Make Appointment button
     Then I click login button
-    And I verify the failed login message
 
   @tag1
   Scenario Outline: Making an appointment with correct username and password

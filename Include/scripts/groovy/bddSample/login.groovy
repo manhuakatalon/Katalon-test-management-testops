@@ -60,7 +60,7 @@ class login {
 	def I_fill_out_the_password_input_with_value(String value) {
 		WebUI.sendKeys(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), value)
 	}
-	
+
 	@Then("I click login button")
 	def I_click_on_login_button() {
 		WebUI.click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
