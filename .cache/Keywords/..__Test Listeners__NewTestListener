@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8759E4487046C10F06A159BF1CE987F2",
+  "keywordFileContentHash": "1AB3AB8E4172E15DAE0D38AD2981FF12",
   "keywordClasses": [
     {
       "name": "NewTestListener",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

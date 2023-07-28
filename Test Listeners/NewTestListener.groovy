@@ -28,13 +28,13 @@ class NewTestListener {
 	 * Executes after every test suite ends.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		WebUI.closeBrowser()
-	}
-	
-	@TearDownIfFailed(skipped = false)
-	def sampleTearDownIfFailed() {
-		WebUI.takeScreenshot()
-	}
+//	@AfterTestSuite
+//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+//		WebUI.closeBrowser()
+//	}
+//	
+//	@TearDownIfFailed(skipped = false)
+//	def sampleTearDownIfFailed() {
+//		WebUI.takeScreenshot()
+//	}
 }
