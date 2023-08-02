@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>android-app</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/man.hua/Katalon Studio/Katalon-test-management-testops/androidapp/APIDemos.apk'</initValue>
+      <name>applicationId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
