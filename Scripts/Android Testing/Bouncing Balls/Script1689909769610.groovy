@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/man.hua/Katalon Studio/Katalon-test-management-testops/androidapp/APIDemos.apk', true)
-
+ 
 Mobile.tap(findTestObject('Object Repository/Android_App_Demo/android.widget.TextView - Animation'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android_App_Demo/android.widget.TextView - Bouncing Balls'), 0)
