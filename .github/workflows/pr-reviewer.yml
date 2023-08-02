@@ -1,7 +1,8 @@
 name: Pull request reviewer
 
 on:
-  pull_request
+  pull_request:
+    types: [opened]
 
 jobs:
   add-reviewer-to-pull-request:
