@@ -1,14 +1,16 @@
-name: Pull request reviewer
+name: Auto Request Review
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, ready_for_review, reopened]
 
 jobs:
-  add-reviewer-to-pull-request:
-    runs-on: ubuntu-20.04
+  auto-request-review:
+    name: Auto Request Review
+    runs-on: ubuntu-latest
     steps:
-    - uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
-      with: 
-        reviewers: "manhuakatalon"
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Request review based on files changes and/or groups the author belongs to
+        uses: necojackarc/auto-request-review@v0.12.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: .github/reviewers.yml # Config file location override
