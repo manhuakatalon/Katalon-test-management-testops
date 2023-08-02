@@ -26,4 +26,4 @@ Mobile.tap(findTestObject('Object Repository/Android_App_Demo/android.widget.Tex
 Mobile.tapAndHold(findTestObject('Object Repository/Android_App_Demo/android.view.View'), 5, 0)
 
 Mobile.closeApplication()
-
+ 
