@@ -1,0 +1,13 @@
+name: Pull request reviewer
+
+on:
+  pull_request
+
+jobs:
+  add-reviewer-to-pull-request:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
+      with: 
+        reviewers: "manhuakatalon"
+        token: ${{ secrets.GITHUB_TOKEN }}
