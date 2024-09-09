@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "0CA4264EB972D35A1D78696B3CE2B617",
+  "keywordFileContentHash": "A635B38F0FD19EA709AA89CE8253B1DB",
   "keywordClasses": [
     {
       "name": "bddSample.cucumberHook",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

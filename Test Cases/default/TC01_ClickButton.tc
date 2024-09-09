@@ -11,5 +11,6 @@ Expected result: Actual healthcare label match with the expected result: &quot;C
    <name>TC01_ClickButton</name>
    <tag>chrome</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2dd89c9a-6ef1-44f1-92c0-8715195cc6d7</testCaseGuid>
 </TestCaseEntity>

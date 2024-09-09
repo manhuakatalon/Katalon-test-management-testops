@@ -32,4 +32,5 @@ WS.verifyMatch(WebUI.getText(healthcareLabel), 'CURA Healthcare Service', false)
 KeywordUtil.logInfo("Healthcare label: " + WebUI.getText(healthcareLabel))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), FailureHandling.CONTINUE_ON_FAILURE)
- 
+
+WebUI.closeBrowser()
