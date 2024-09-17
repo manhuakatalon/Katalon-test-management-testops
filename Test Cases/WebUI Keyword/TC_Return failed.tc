@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>close window - Copy</name>
+   <name>TC_Return failed</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>dd3f291e-be90-423b-8225-517f4d9bc5c5</testCaseGuid>
+   <testCaseGuid>0bde5129-ba20-4e12-a3ca-e299ee6a80fa</testCaseGuid>
 </TestCaseEntity>
