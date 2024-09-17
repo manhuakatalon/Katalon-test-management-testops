@@ -9,7 +9,7 @@ class NewTestListener {
 	 */
 	@BeforeTestCase
 	void skipTestCase(TestCaseContext testCaseContext) {
-		if(testCaseContext.getProperties().get("testCaseId").contains("TC_Return skipped"))
+		if(testCaseContext.getProperties().get("testCaseId").contains("Return skipped"))
 			testCaseContext.skipThisTestCase()
 	}
 }
